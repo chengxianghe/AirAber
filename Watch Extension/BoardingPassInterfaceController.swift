@@ -11,7 +11,7 @@ import Foundation
 import WatchConnectivity
 
 class BoardingPassInterfaceController: WKInterfaceController,WCSessionDelegate {
-
+   
     @IBOutlet var originLabel: WKInterfaceLabel!
     @IBOutlet var destinationLabel: WKInterfaceLabel!
     @IBOutlet var boardingPassImage: WKInterfaceImage!
